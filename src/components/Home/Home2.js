@@ -37,36 +37,33 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I enjoy coding because it lets me create practical and effective solutions, and I find the process really satisfying.
+            I enjoy coding because it lets me create practical and effective solutions, and I find the process satisfying.
               <br />
               <br />I'm skilled in
               <i>
-                <b className="purple"> React, Node.js, Python </b> and <b className="purple"> C++ </b>
+                <b className="purple"> React, Node.js, Python, </b> </i> and <i><b className="purple"> C++ </b> </i>
                 which helps me work on both frontend and backend tasks
-              </i>
+              
               <br />
               <br />
               I'm interested in&nbsp;
               <i>
-                <b className="purple">Software Engineering</b> and <b className="purple">Full Stack Development </b>
+                <b className="purple">Software Engineering</b> </i> and <i><b className="purple">Full Stack Development </b> </i>
                  along with areas related to{" "}
-                <b className="purple">
+                <i><b className="purple">
                   Data Analysis.
-                </b>
-              </i>
+                </b> </i>
+              
               <br />
               <br />
-              I'm always looking to improve, whether by <b className="purple">learning new languages</b> or
+              I'm always looking to improve, whether it's <i><b className="purple">learning new languages</b></i> or
               <i>
                 <b className="purple">
                   {" "}
-                  tackling new projects.
+                  tackling new projects
                 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> Perfect Fit</b> and <b className="purple"> HotSpots</b>
-              </i>
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -96,7 +93,7 @@ function Home2() {
               <Form.Group className="mb-3">
                 <Form.Control
                   type="text"
-                  placeholder="What's your name?"
+                  placeholder="Name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   required
@@ -106,7 +103,7 @@ function Home2() {
               <Form.Group className="mb-3">
                 <Form.Control
                   type="email"
-                  placeholder="What's your email?"
+                  placeholder="Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
@@ -117,7 +114,7 @@ function Home2() {
                 <Form.Control
                   as="textarea"
                   rows={4}
-                  placeholder="What's your message?"
+                  placeholder="Message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   required

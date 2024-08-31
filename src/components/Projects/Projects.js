@@ -28,7 +28,7 @@ function Projects() {
             <ProjectCard
               imgPath={perfectFit}
               title="Perfect Fit"
-              description="Perfect Fit is a virtual wardrobe platform built with React, Node.js, and Firebase for real-time data management. Perfect Fit helps users create personalized outfits by analyzing their clothing items and suggesting combinations that match their style."
+              description="Perfect Fit is a virtual wardrobe platform that generates outfits for users, built with HTML, React, Express, and Firebase."
               learnMoreLink="/perfect-fit"
               demoLink="https://www.youtube.com/watch?v=zl1kipBwRlE"
             />
@@ -38,9 +38,7 @@ function Projects() {
             <ProjectCard
               imgPath={fitFinder}
               title="Fit Finder"
-              description="Fit Finder is a key feature of Perfect Fit as it introduces a swiping mechanism, similar to what you might find on popular dating apps.
-              If you like the suggested clothing item, swipe right to save it to your wardrobe.
-              If it's not quite your style, swipe left to move on to the next suggestion."
+              description="Fit Finder is a key feature of Perfect Fit as it introduces a swiping mechanism, similar to what you might find on popular dating apps."
               learnMoreLink="/fit-finder"
               demoLink="https://www.youtube.com/shorts/woKysMjlTPM"
             />
@@ -50,7 +48,7 @@ function Projects() {
             <ProjectCard
               imgPath={hotSpots}
               title="HotSpots"
-              description="HotSpot is a location intelligence platform that helps businesses evaluate potential sites by offering virtual tours through Google Maps' street view. Built with Node.js on the backend, it uses Google Maps' API for location data and React with Deck.gl on the frontend to visualize areas. The platform also integrates real-time real estate data via Datafiniti and models accessibility using the INRIX Drive Time Polygon API"
+              description="HotSpot is a location intelligence platform that helps businesses evaluate potential sites thru INRIX Foot Traffic data and Google Maps."
               learnMoreLink="/hotspots"
               demoLink="https://devpost.com/software/hotspots-xs6inz"
             />
@@ -60,7 +58,7 @@ function Projects() {
             <ProjectCard
               imgPath={safeBronc}
               title="SafeBronc"
-              description="SafeBronc is a mobile app designed to enhance safety at events by allowing hosts to create events and track attendees using a QR code system (in development). The app is built using React Native for the frontend, Node.js for the backend, and DigitalOcean to host the database."
+              description="SafeBronc is a mobile app that enhances safety at events by allowing hosts to create events and track attendees using a QR code system."
               learnMoreLink="/safebronc"
               demoLink="https://devpost.com/software/safebronc"
             />
@@ -70,7 +68,7 @@ function Projects() {
             <ProjectCard
               imgPath={wordScramble}
               title="Word Scrambling Game"
-              description="Here is a Word Scrambling Game that I created using Rust for my Programming Languages final project."
+              description="I created the word scrambling game using Rust for my Programming Languages final project."
               learnMoreLink="/word-scrambling"
               demoLink="https://www.youtube.com/embed/iMdib4b9BtU?si=Rbql1GAROWk28TiF"
             />

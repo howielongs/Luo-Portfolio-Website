@@ -41,9 +41,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Do what excites"{" "}
+            "Well done is better than well said."{" "}
           </p>
-          <footer className="blockquote-footer">Luo</footer>
+          <footer className="blockquote-footer">Benjamin Franklin</footer>
         </blockquote>
       </Card.Body>
     </Card>
