@@ -37,9 +37,9 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I enjoy coding because it lets me create practical and effective solutions, and I find the process satisfying.
+            During my junior year of high school, I had the opportunity to take AP Computer Science and I'm so grateful I did because it made me realize how powerful coding was.
               <br />
-              <br />I'm skilled in
+              <br />As I progressed, I've become proficient in
               <i>
                 <b className="purple"> React, Node.js, Python, </b> </i> and <i><b className="purple"> C++ </b> </i>
                 which helps me work on both frontend and backend tasks
