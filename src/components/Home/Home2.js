@@ -7,26 +7,34 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import axios from 'axios';
 
 function Home2() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [showConfirmation, setShowConfirmation] = useState(false);
+  const [error, setError] = useState(""); // Add this line
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const mailtoLink = `mailto:andrelong2003@gmail.com?subject=Message from ${name}&body=${message}%0D%0A%0D%0AFrom: ${name}%0D%0AEmail: ${email}`;
-    window.location.href = mailtoLink;
-    
-    // Clear form fields and show confirmation
-    setName("");
-    setEmail("");
-    setMessage("");
-    setShowConfirmation(true);
-
-    // Hide confirmation after 5 seconds
-    setTimeout(() => setShowConfirmation(false), 5000);
+    setError(""); // Clear any previous errors
+    try {
+      const response = await axios.post('http://localhost:4000/contact', {
+        name,
+        email,
+        message
+      });
+      if (response.status === 200) {
+        setName("");
+        setEmail("");
+        setMessage("");
+        setShowConfirmation(true);
+        setTimeout(() => setShowConfirmation(false), 5000);
+      }
+    } catch (err) {
+      setError("Failed to send message. Please try again later."); // Handle error
+    }
   };
   return (
     <Container fluid className="home-about-section" id="about">
@@ -37,9 +45,9 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            During my junior year of high school, I had the opportunity to take AP Computer Science and I'm so grateful I did because it made me realize how powerful coding was.
+            I enjoy coding because it lets me create practical and effective solutions, and I find the process satisfying.
               <br />
-              <br />As I progressed, I've become proficient in
+              <br />I'm skilled in
               <i>
                 <b className="purple"> React, Node.js, Python, </b> </i> and <i><b className="purple"> C++ </b> </i>
                 which helps me work on both frontend and backend tasks
@@ -85,6 +93,11 @@ function Home2() {
             {showConfirmation && (
               <Alert variant="success" onClose={() => setShowConfirmation(false)} dismissible>
                 Your message has been sent successfully!
+              </Alert>
+            )}
+            {error && (
+              <Alert variant = "danger" onClose = {() => setError("")} dismissible>
+                {error}
               </Alert>
             )}
             <Form onSubmit={handleSubmit}>
