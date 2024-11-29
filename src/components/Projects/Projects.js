@@ -11,6 +11,7 @@ import fitFinder from "../../Assets/Projects/fitfinder.png";
 import hotSpots from "../../Assets/Projects/hotspots.png";
 import safeBronc from "../../Assets/Projects/SafeBronc.png";
 import wordScramble from "../../Assets/Projects/wordscramble.png";
+import tripPlanner from "../../Assets/Projects/TripPlanner.png";
 
 function Projects() {
   return (
@@ -24,6 +25,16 @@ function Projects() {
           Here's what I've been working on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tripPlanner}
+              title="Trip Planner"
+              description="Trip Planner is a travel web app built using React, Node.js, SQL, and Google Maps and Google Places APIs that reduces trip planning time to
+              15 minutes with dynamic location suggestions and real-time itinerary updates"
+              learnMoreLink="/trip-planner"
+              demoLink="https://youtu.be/PKwMmVkX-k4"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={perfectFit}
