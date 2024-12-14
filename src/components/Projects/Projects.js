@@ -32,7 +32,7 @@ function Projects() {
               description="Trip Planner is a travel web app built using React, Node.js, SQL, and Google Maps and Google Places APIs that reduces trip planning time to
               15 minutes with dynamic location suggestions and real-time itinerary updates"
               learnMoreLink="/trip-planner"
-              demoLink="https://youtu.be/PKwMmVkX-k4"
+              demoLink="https://trip-planner-zeta-coral.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
