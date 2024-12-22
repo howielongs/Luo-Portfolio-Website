@@ -929,3 +929,25 @@ button:focus {
 .contact-button-icon {
   margin-left: 0.5rem;
 }
+
+/* About Me Carousel */
+
+.about-carousel {
+  width: 100%;
+  max-height: 400px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 15px; /* Rounded corners */
+  border: 5px solid #6c63ff; /* Purple border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  background-color: #f9f9f9; /* Light background to complement the images */
+}
+
+.about-carousel img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px; /* Match the rounded corners inside the border */
+}
+

@@ -45,37 +45,55 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I enjoy coding because it lets me create practical and effective solutions, and I find the process satisfying.
+              I'm an aspiring software engineer passionate about 
+              <i><b className="purple"> collaboration, innovation,</b> and 
+              <b className="purple"> creating meaningful impact.</b></i>
+               {" "}
+               I value <i><b className="purple">teamwork, open communication, </b>
+               and 
+               <b className="purple"> continuous learning</b></i>, 
+              while thriving in environments that celebrate <i><b className="purple">creativity, inclusivity, </b>
+              and 
+              <b className="purple"> shared success.</b></i>
               <br />
               <br />I'm skilled in
               <i>
                 <b className="purple"> React, Node.js, Python, </b> </i> and <i><b className="purple"> C++ </b> </i>
-                which helps me work on both frontend and backend tasks
-              
+                which helps me work on both frontend and backend tasks.
               <br />
               <br />
               I'm interested in&nbsp;
               <i>
                 <b className="purple">Software Engineering</b> </i> and <i><b className="purple">Full Stack Development </b> </i>
-                 along with areas related to{" "}
+                along with areas related to{" "}
                 <i><b className="purple">
                   Data Analysis.
                 </b> </i>
-              
               <br />
               <br />
               I'm always looking to improve, whether it's <i><b className="purple">learning new languages</b></i> or
               <i>
                 <b className="purple">
                   {" "}
-                  tackling new projects
+                  tackling new projects. 
+                  {" "}
                 </b>
               </i>
-              
+              Feel free to 
+              {" "}
+              <a 
+                href="https://luo-long-portfolio.vercel.app/project" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="purple"
+                style={{ textDecoration: "underline" }}
+              >
+                explore my work
+              </a> or connect with me here—I’m always excited to engage and grow together!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-              <img src={myImg} className="img-fluid" alt="avatar" />
+            <img src={myImg} className="img-fluid" alt="avatar" />
           </Col>
         </Row>
 
@@ -143,7 +161,6 @@ function Home2() {
 
         <Row>
           <Col md={12} className="home-about-social">
-
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
@@ -158,7 +175,6 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/luo-long/"
