@@ -20,7 +20,7 @@ function HotSpotsPage() {
               <div className="embed-responsive embed-responsive-16by9">
                 <iframe
                   className="embed-responsive-item"
-                  src="https://www.youtube.com/embed/3dOS11yjG8Q?si=Ie9kV6GOlrifU5TK"
+                  src="https://www.youtube.com/embed/lm-6KrNwmI0?si=_TCwCL1PL5JbJILe"
                   title="HotSpots Demo"
                   allowFullScreen
                 ></iframe>
