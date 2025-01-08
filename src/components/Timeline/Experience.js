@@ -98,7 +98,7 @@ function Experience() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgba(138, 43, 226, 0.2)', color: '#fff', border: '1px solid #8a2be2' }}
             contentArrowStyle={{ borderRight: '7px solid #8a2be2' }}
-            date="Apr 2024 - Present"
+            date="Apr 2024 - Dec 2024"
             iconStyle={{ background: '#8a2be2', color: '#fff' }}
             icon={<FaCode />}
           >
@@ -156,6 +156,24 @@ function Experience() {
 
           </VerticalTimelineElement>
 
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'rgba(138, 43, 226, 0.2)', color: '#fff', border: '1px solid #8a2be2' }}
+            contentArrowStyle={{ borderRight: '7px solid #8a2be2' }}
+            date="Jan 2025 - Present"
+            iconStyle={{ background: '#8a2be2', color: '#fff' }}
+            icon={<FaCode />}
+          >
+            <h3 className="vertical-timeline-element-title">Data Analytics Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Santa Clara University - Athletics Department</h4>
+            <p>
+              - Analyzed athlete data using output sport monitors to assess mean power during exercises, enabling predictions of 1-rep max, peak velocity, and force.
+            </p>
+            <p> 
+              - Developed data models and visualizations to interpret performance metrics, improving training strategies and injury prevention efforts
+            </p>
+          </VerticalTimelineElement>
+
 
         <VerticalTimelineElement
             className="vertical-timeline-element--education"
@@ -176,7 +194,11 @@ function Experience() {
             iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
             icon={<BsStarFill />}
           />
+
+          
         </VerticalTimeline>
+
+
       </Container>
     </Container>
   );
