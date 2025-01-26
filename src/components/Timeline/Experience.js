@@ -164,7 +164,7 @@ function Experience() {
             iconStyle={{ background: '#8a2be2', color: '#fff' }}
             icon={<FaCode />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analytics Intern</h3>
+            <h3 className="vertical-timeline-element-title">Software Engineer Intern</h3>
             <h4 className="vertical-timeline-element-subtitle">Santa Clara University - Athletics Department</h4>
             <p>
               - Analyzed athlete data using output sport monitors to assess mean power during exercises, enabling predictions of 1-rep max, peak velocity, and force.
