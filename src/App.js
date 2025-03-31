@@ -25,6 +25,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import TripPlannerPage from "./components/Pages/TripPlannerPage";
+import NextUpPage from "./components/Pages/NextUpPage";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -47,6 +48,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/trip-planner" element={<TripPlannerPage />} />
+          <Route path="/nextup" element={<NextUpPage />} />
           <Route path="/perfect-fit" element={<PerfectFitPage />} />
           <Route path="/fit-finder" element={<FitFinderPage />} />
           <Route path="/hotspots" element={<HotSpotsPage />} />

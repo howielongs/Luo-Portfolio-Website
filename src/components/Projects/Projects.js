@@ -12,6 +12,8 @@ import hotSpots from "../../Assets/Projects/hotspots.png";
 import safeBronc from "../../Assets/Projects/SafeBronc.png";
 import wordScramble from "../../Assets/Projects/wordscramble.png";
 import tripPlanner from "../../Assets/Projects/TripPlanner.png";
+import nextUp from "../../Assets/Projects/nextup.png";
+
 
 function Projects() {
   return (
@@ -25,6 +27,15 @@ function Projects() {
           Here's what I've been working on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nextUp}
+              title="NextUp"
+              description="NextUp is a data-driven tool built with Python, Pandas, linear regression, and decision trees to help SCU Men’s Basketball predict player development and star potential using physical and in-game performance metrics"
+              learnMoreLink="/nextup"
+              demoLink="https://www.youtube.com/watch?v=rzDRu0SOqJU"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tripPlanner}
