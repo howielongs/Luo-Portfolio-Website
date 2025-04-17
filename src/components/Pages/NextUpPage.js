@@ -28,6 +28,31 @@ function NextUpPage() {
             </div>
           </Col>
         </Row>
+        
+                <Row className="mt-4 mb-5 justify-content-center">
+        <Col md="auto">
+            <a
+            href="https://colab.research.google.com/drive/11enpVkQ2WJLKVi4J0U4oQKFbulPjP4KZ"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline-primary"
+            style={{
+                pointerEvents: "auto",
+                zIndex: 100,
+                opacity: 1,
+                position: "relative",
+            }}
+            >
+            Open Colab Notebook
+            </a>
+        </Col>
+        </Row>
+
+        
+
+        
+
+
 
         <Row style={{ marginTop: "50px" }}>
           <Col>
