@@ -56,7 +56,7 @@ function AboutCard() {
               <br />
               Growing up, I spent countless hours playing Pokémon and Super Smash Bros., which sparked my competitive spirit and love for gaming. 
               Over time, I discovered coding as a way to express myself and solve real-world challenges. Whether it's building an <span className="purple">Outfit Generator </span>  
-              to manage my wardrobe, designing a <span className="purple">Trip Planner App</span> for my travels, I’m always excited to create and explore. Lately, I’ve especially enjoyed working on sports-related projects—like <span className="purple">analyzing performance data </span> for SCU Division 1 athletes or developing player archetypes for <span className="purple">Bay FC (NSWL)</span>
+              to manage my wardrobe, designing a <span className="purple">Trip Planner App</span> for my travels, I’m always excited to create and explore. Lately, I’ve especially enjoyed working on sports-related projects like <span className="purple">analyzing performance data </span> for SCU Division 1 athletes or developing player archetypes for <span className="purple">Bay FC (NSWL)</span>
             </p>
           </blockquote>
         </Card.Body>
