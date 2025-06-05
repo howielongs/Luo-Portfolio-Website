@@ -42,14 +42,14 @@ function AboutCard() {
       </Carousel>
       <Card className="quote-card-view">
         <Card.Body>
-          <blockquote className="blockquote mb-0">
+        <blockquote className="blockquote mb-0">
             <p style={{ textAlign: "justify" }}>
               Hi there! My name is <span className="purple">Luo Long</span>, and I’m from <span className="purple">Wilton, CT</span>. 
               I’m currently a senior studying <span className="purple">Computer Science</span> at 
               <span className="purple"> Santa Clara University</span>.
               <br />
               <br />
-              I enjoy on connecting with people and exploring the world around me. <span className="purple">Basketball</span> has always been my universal connector, 
+              I enjoy connecting with people connecting with others and staying curious through hobbies like fashion, travel, and basketball. <span className="purple">Basketball</span> has always been my universal connector, 
               a way to bond with people no matter where I go. <span className="purple">Traveling</span> fuels my curiosity and love for new experiences, and 
               if you have any recommendations, I’m all ears! <span className="purple">Fashion</span> is another passion of mine, a creative outlet that lets me express my individuality.
               <br />

@@ -8,6 +8,8 @@ import { BsStarFill } from 'react-icons/bs';
 import Particle from '../Particle';
 import introCertificate from "../../Assets/intro_db_certificate.png";
 import versionControl from "../../Assets/versionControl.png";
+//import bayFC from "../../Assets/wearebayfc_logo.jpeg";
+//import travelers from "../../Assets/travelers.jpg";
 
 
 function Experience() {
@@ -160,11 +162,30 @@ function Experience() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgba(138, 43, 226, 0.2)', color: '#fff', border: '1px solid #8a2be2' }}
             contentArrowStyle={{ borderRight: '7px solid #8a2be2' }}
-            date="Jan 2025 - Present"
+            date="Jan 2025 - Mar 2025"
             iconStyle={{ background: '#8a2be2', color: '#fff' }}
             icon={<FaCode />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analytics Intern</h3>
+            <h3 className="vertical-timeline-element-title">Software Engineer Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Bay FC (NWSL)</h4>
+            <p>
+              - Built a tool in Python to group Bay FC players into playstyle types using their stats
+            </p>
+            <p> 
+              - Helped the analytics team by cleaning player data and creating features for better insights
+            </p>
+            
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'rgba(138, 43, 226, 0.2)', color: '#fff', border: '1px solid #8a2be2' }}
+            contentArrowStyle={{ borderRight: '7px solid #8a2be2' }}
+            date="Jan 2025 - Jun 2025"
+            iconStyle={{ background: '#8a2be2', color: '#fff' }}
+            icon={<FaCode />}
+          >
+            <h3 className="vertical-timeline-element-title">Software Engineer Intern</h3>
             <h4 className="vertical-timeline-element-subtitle">Santa Clara University - Athletics Department</h4>
             <p>
               - Built a predictive regression model using Python and scikit-learn, analyzing strength, athleticism, and efficiency
@@ -175,8 +196,7 @@ metrics to forecast player performance
             </p>
           </VerticalTimelineElement>
 
-
-        <VerticalTimelineElement
+          <VerticalTimelineElement
             className="vertical-timeline-element--education"
             contentStyle={{ background: 'rgba(138, 43, 226, 0.2)', color: '#fff', border: '1px solid #8a2be2' }}
             contentArrowStyle={{ borderRight: '7px solid #8a2be2' }}
@@ -190,6 +210,26 @@ metrics to forecast player performance
               - Studied core software engineering principles including Computer Networks, Data Structures, Programming Languages, Embedded Systems, and Theory of Algorithms.
             </p>
           </VerticalTimelineElement>
+
+          
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'rgba(138, 43, 226, 0.2)', color: '#fff', border: '1px solid #8a2be2' }}
+            contentArrowStyle={{ borderRight: '7px solid #8a2be2' }}
+            date="Jun 2025 - Present"
+            iconStyle={{ background: '#8a2be2', color: '#fff' }}
+            icon={<FaCode />}
+          >
+            <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Travelers</h4>
+            <p>
+                Start Date: June
+            </p>
+            
+          </VerticalTimelineElement>
+
+
 
           <VerticalTimelineElement
             iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
