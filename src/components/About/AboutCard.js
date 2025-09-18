@@ -50,8 +50,8 @@ function AboutCard() {
               <br />
               <br />
               I enjoy connecting with people and staying curious through hobbies like fashion, travel, and basketball. <span className="purple">Basketball</span> has always been my universal connector and has been 
-              a way for me to bond with others no matter where I go. <span className="purple">Traveling</span> fuels my curiosity and love for new experiences. 
-              (If you have any recommendations, I’m all ears!) <span className="purple">Fashion</span> is another passion of mine as it is a creative outlet that lets me express my individuality.
+              a way for me to bond with others no matter where I go. <span className="purple">Traveling</span> fuels my curiosity and love for new experiences, and 
+              if you have any recommendations, I’m all ears! <span className="purple">Fashion</span> is another passion of mine as it is a creative outlet that lets me express my individuality.
               <br />
               <br />
               Growing up, I spent countless hours playing Pokémon and Super Smash Bros., which sparked my competitive spirit and love for gaming. 

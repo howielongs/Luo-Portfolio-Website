@@ -13,6 +13,7 @@ import safeBronc from "../../Assets/Projects/SafeBronc.png";
 import wordScramble from "../../Assets/Projects/wordscramble.png";
 import tripPlanner from "../../Assets/Projects/TripPlanner.png";
 import nextUp from "../../Assets/Projects/nextup.png";
+import clothesExchange from "../../Assets/Projects/ClothesExchange.png";
 
 
 function Projects() {
@@ -27,6 +28,15 @@ function Projects() {
           Here's what I've been working on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={clothesExchange}
+              title="ClothesExchange"
+              description="The Clothes Exchange is a peer-to-peer clothing marketplace built with React, Node.js, Express, and MongoDB, designed to promote sustainable fashion through community-driven wardrobe sharing."
+              learnMoreLink="/clothes-exchange"
+              demoLink="https://www.youtube.com/watch?v=i_mw1waJOLM"
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={nextUp}

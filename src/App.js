@@ -12,6 +12,7 @@ import FitFinderPage from "./components/Pages/FitFinderPage";
 import HotSpotsPage from "./components/Pages/HotSpotsPage";
 import SafeBroncPage from "./components/Pages/SafeBroncPage";
 import WordScramblingPage from "./components/Pages/WordScramblingPage";
+import ClothesExchangePage from "./components/Pages/ClothesExchangePage";
 
 
 import {
@@ -54,6 +55,7 @@ function App() {
           <Route path="/hotspots" element={<HotSpotsPage />} />
           <Route path="/safebronc" element={<SafeBroncPage />} />
           <Route path="/word-scrambling" element={<WordScramblingPage />} />
+          <Route path="/clothes-exchange" element={<ClothesExchangePage />} />
 
           {/* Add routes for other projects */}
 
