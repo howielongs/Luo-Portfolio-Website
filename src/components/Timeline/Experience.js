@@ -221,10 +221,10 @@ metrics to forecast player performance
             iconStyle={{ background: '#8a2be2', color: '#fff' }}
             icon={<FaCode />}
           >
-            <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+            <h3 className="vertical-timeline-element-title">Software Engineer - Engineering Development Program</h3>
             <h4 className="vertical-timeline-element-subtitle">Travelers</h4>
             <p>
-                Start Date: June
+            Building tools that help analysts make smarter insurance pricing decisions.
             </p>
             
           </VerticalTimelineElement>
