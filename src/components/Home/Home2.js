@@ -45,7 +45,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm an aspiring software engineer passionate about 
+              I'm a software engineer passionate about 
               <i><b className="purple"> collaboration, innovation,</b> and 
               <b className="purple"> creating meaningful impact.</b></i>
                {" "}
@@ -58,8 +58,8 @@ function Home2() {
               <br />
               <br />I'm skilled in
               <i>
-                <b className="purple"> React, Node.js, Python, </b> </i> and <i><b className="purple"> C++ </b> </i>
-                which helps me work on both frontend and backend tasks.
+                <b className="purple"> React, Python, SQL</b> </i> and <i><b className="purple"> Java </b> </i>
+                which helps me work on frontend, backend, and database tasks.
               <br />
               <br />
               I'm interested in&nbsp;
