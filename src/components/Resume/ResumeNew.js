@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Luo_Long_Resume.pdf";
-import pdfs from "../../Assets/Luo_Resume/Luo_Updated_Resume.pdf";
+import pdfs from "../../Assets/Luo_Resume/Luo_Updated_Resume2.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
