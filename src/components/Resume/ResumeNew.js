@@ -3,7 +3,8 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Luo_Long_Resume.pdf";
-import pdfs from "../../Assets/Luo_Resume/Luo_Updated_Resume2.pdf";
+import pdfs from "../../Assets/Luo_Resume/Luo_Updated_Resume.pdf";
+import pdf2 from "../../Assets/new_resume/Luo_Long_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -23,7 +24,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdfs}
+            href={pdf2}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
